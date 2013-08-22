@@ -11,7 +11,7 @@ Pychallonge provides python bindings for the
 
 # Installation
 
-    pip install -e git+http://github.com/BigShotGaming/pychallonge#egg=pychallonge
+    pip install -e git+http://github.com/bigshotgaming/pychallonge#egg=pychallonge
 
 
 # Usage
