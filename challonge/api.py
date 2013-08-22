@@ -53,6 +53,7 @@ def fetch(method, uri, params_prefix=None, **params):
         passwd=api_key
     )
     opener = urllib2.build_opener(auth_handler)
+    opener.addheaders = [('User-agent', 'pychallonge')]
 
     try:
         response = opener.open(req)
